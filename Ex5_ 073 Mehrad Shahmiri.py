@@ -1,0 +1,10 @@
+print('what is your favourite foods?')
+a=input('1: ')
+b=input('2: ')
+c=input('3: ')
+d=input('4: ')
+d={1:a,2:b,3:c,4:d}
+print(d)
+s=int(input('Which number do you want to remove? '))
+d.pop(s)
+print(d)
